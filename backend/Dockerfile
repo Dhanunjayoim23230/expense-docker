@@ -4,3 +4,4 @@ COPY *.js .
 COPY *.json .
 RUN npm install
 ENV DB_HOST="mysql"
+CMD ["node","-g","index.js"]
