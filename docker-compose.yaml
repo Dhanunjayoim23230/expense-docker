@@ -1,7 +1,7 @@
 networks:
   expense: {}
 volumes:
-  msql:
+  mysql:
 services:
   mysql:
     image: mysql:1.0.0
