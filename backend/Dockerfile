@@ -1,0 +1,6 @@
+FROM node:20
+WORKDIR /opt/backend
+COPY *.js .
+COPY *.json .
+RUN npm install
+ENV DB_HOST="mysql"
